@@ -11,3 +11,8 @@ func run(ctx context.Context) error {
 	return f1(ctx)
 }
 ```
+
+geminiのAPIキーは作成済みで、環境変数に設定済み
+```
+echo $GEMINI_API_KEY
+```
